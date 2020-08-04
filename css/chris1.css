@@ -10,6 +10,8 @@ header{
 	background-color: #252527;
 	/*set the text and image align to be the centre of the page*/
 	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 /*this looks at specifically header and h1 - so setting the colour of the text to white*/
