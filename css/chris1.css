@@ -40,6 +40,9 @@ header img{
 main{
 	text-align: center;
 	padding-left: 0;
+	/*setting a max width means that people with wide screens don't have to scroll across*/
+	max-width: 2000px;
+	/*setting padding allows for space so that it doesn't look cramped*/
 }
 
 footer{
