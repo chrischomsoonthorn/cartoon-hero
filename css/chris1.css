@@ -18,6 +18,11 @@ header{
 /*this looks at specifically header and h1 - so setting the colour of the text to white*/
 header h1{
 	color: white;
+	font-size: 58px;
+}
+
+h2{
+	font-size: 25px;
 }
 
 header h2{
@@ -26,16 +31,28 @@ header h2{
 }
 
 header img{
-	border-radius: 190px;
-	width: 250px;
+	border-radius: 400px;
+	width: 400px;
 	overflow: hidden;
 	border: 4px solid white;
 }
 
 main{
-	margin: 20px;
+	text-align: center;
 }
 
 footer{
 	margin: 20px;
+}
+
+ul{
+	text-align: center;
+	list-style-position: inside;
+	padding-left: 0;
+}
+
+li{
+	text-align: center;
+	list-style-position: inside;
+	padding-left: 0;
 }
