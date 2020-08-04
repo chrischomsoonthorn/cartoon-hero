@@ -3,7 +3,7 @@ body{
 	margin: 0;
 	/*background colour changed to dark blue*/
 	background-color: white;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Crete Round', serif;
 }
 
 header{
@@ -12,12 +12,17 @@ header{
 	/*set the text and image align to be the centre of the page*/
 	text-align: center;
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 }
 
 /*this looks at specifically header and h1 - so setting the colour of the text to white*/
 header h1{
 	color: white;
+}
+
+header h2{
+	color: white;
+	font-size: 20px
 }
 
 header img{
