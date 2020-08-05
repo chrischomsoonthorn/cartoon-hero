@@ -2,7 +2,7 @@ body{
 	/*margin reduced to zero*/
 	margin: 0;
 	/*background colour changed to white*/
-	background-color: #D5D1DB;
+	background-color: white;
 	font-family: 'Recursive', sans-serif;
 	font-size: 17px;
 	/*line height is like line spacing in word*/
@@ -11,7 +11,7 @@ body{
 
 header{
 	/*set background colour of the top header area to black*/
-	background-color: #D5D1DB;
+	background-color: white;
 	/*set the text and image align to be the centre of the page*/
 	text-align: center;
 	padding-top: 50px;
@@ -43,7 +43,7 @@ header img{
 }
 
 main{
-	margin: 0 auto;
+	margin: 0px auto;
 	padding: 20px;
 	/*setting a max width means that people with wide screens don't have to scroll across*/
 	max-width: 800px;
@@ -74,10 +74,4 @@ a{
 /*below is an example of a pseudo-class which changes properties based on what you do*/
 a:hover{
 	color: salmon;
-}
-
-div{
-	margin: 100px 0;
-	font-size: 50px;
-	text-align: center;
 }
