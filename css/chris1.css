@@ -11,7 +11,7 @@ body{
 
 header{
 	/*set background colour of the top header area to black*/
-	background-color: black;
+	background-color: #011A27;
 	/*set the text and image align to be the centre of the page*/
 	text-align: center;
 	padding-top: 50px;
@@ -72,12 +72,12 @@ li{
 }
 
 a.main{
-	color: darkred;
+	color: #F0810F;
 }
 
 /*below is an example of a pseudo-class which changes properties based on what you do*/
 a.main:hover{
-	color: salmon;
+	color: #E6DF44;
 }
 
 input{
@@ -87,26 +87,37 @@ input{
 }
 
 
-.firsttesttitle{
+.exampletitle{
 	text-align: center;
+	line-height: 35px;
+	color: black;
+	margin: 20px 0 10px;
+}
+
+.exampledesc{
+	text-align: center;
+	line-height: 35px;
+	font-size: 20px;
+	color: black;
+	margin: 20px 0 10px;
 }
 
 /*example of how naming classes can allow me to apply different CSS styles to similar elements*/
 .test1{
 	font-size: 35px;
-	color:blue;
+	color: #063852;
 	display: inline;
 }
 
 .test2{
-	color:green;
+	color: #F0810F;
 	font-size: 30px;
 	display: inline;
 }
 
 .test3{
-	background-color: black;
-	color:yellow;
+	background-color: #011A27;
+	color:#E6DF44;
 	font-size: 23px;
 }
 
