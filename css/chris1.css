@@ -58,7 +58,6 @@ footer{
 	margin: 0 auto;
 	line-height: 25px;
 	max-width: 800px;
-	padding: 20px;
 }
 
 ul{
@@ -86,14 +85,32 @@ input{
 	width: 100%;
 }
 
+
+.firsttesttitle{
+	text-align: center;
+}
+
+/*example of how naming classes can allow me to apply different CSS styles to similar elements*/
 .test1{
+	font-size: 35px;
 	color:blue;
-	display: inline-block;
-	margin:20px 0 0 0;
+	display: inline;
 }
 
 .test2{
 	color:green;
-	display: inline-block;
-	margin:20px 0 0 0;
+	font-size: 30px;
+	display: inline;
+}
+
+.test3{
+	background-color: black;
+	color:yellow;
+	font-size: 23px;
+}
+
+.examplebox{
+	background-color: lightgrey;
+	border: solid 2px;
+	padding: 20px;
 }
