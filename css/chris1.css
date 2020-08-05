@@ -27,11 +27,12 @@ header h1{
 
 h2{
 	font-size: 25px;
+	margin: 40px 0 10px;
 }
 
 header h2{
 	color: white;
-	font-size: 20px
+	font-size: 20px;
 }
 
 header img{
@@ -43,7 +44,7 @@ header img{
 
 main{
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 20px;
 	/*setting a max width means that people with wide screens don't have to scroll across*/
 	max-width: 800px;
 	/*setting padding allows for space so that it doesn't look cramped*/
@@ -61,4 +62,17 @@ ul{
 li{
 	list-style-position: inside;
 	padding-left: 0;
+}
+
+a{
+	color: darkred;
+}
+
+/*below is an example of a pseudo-class which changes properties based on what you do*/
+a:hover{
+	color: salmon;
+}
+
+footer{
+
 }
