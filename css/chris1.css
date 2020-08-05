@@ -11,27 +11,24 @@ body{
 
 header{
 	/*set background colour of the top header area to black*/
-	background-color: white;
+	background-color: black;
 	/*set the text and image align to be the centre of the page*/
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 20px;
+	color: white;
 }
 
 /*this looks at specifically header and h1 - so setting the colour of the text to white*/
 header h1{
-	color: black;
+	color: white;
 	font-size: 58px;
 	line-height: 70px;
 }
 
-h2{
-	font-size: 25px;
-	margin: 40px 0 10px;
-}
 
 header h2{
-	color: black;
+	color: white;
 	font-size: 20px;
 }
 
@@ -41,6 +38,13 @@ header img{
 	border: 5px solid white;
 	box-sizing: border-box;
 }
+
+
+h2{
+	font-size: 25px;
+	margin: 40px 0 10px;
+}
+
 
 main{
 	margin: 0px auto;
@@ -74,4 +78,22 @@ a{
 /*below is an example of a pseudo-class which changes properties based on what you do*/
 a:hover{
 	color: salmon;
+}
+
+input{
+	font-size: 20px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.test1{
+	color:blue;
+	display: inline-block;
+	margin:20px 0 0 0;
+}
+
+.test2{
+	color:green;
+	display: inline-block;
+	margin:20px 0 0 0;
 }
