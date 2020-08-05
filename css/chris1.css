@@ -17,6 +17,7 @@ header{
 	padding-top: 50px;
 	padding-bottom: 20px;
 	color: white;
+	width: 100%;
 }
 
 /*this looks at specifically header and h1 - so setting the colour of the text to white*/
@@ -70,12 +71,12 @@ li{
 	padding-left: 0;
 }
 
-a{
+a.main{
 	color: darkred;
 }
 
 /*below is an example of a pseudo-class which changes properties based on what you do*/
-a:hover{
+a.main:hover{
 	color: salmon;
 }
 
@@ -113,4 +114,13 @@ input{
 	background-color: lightgrey;
 	border: solid 2px;
 	padding: 20px;
+}
+
+a.gohome{
+	color: lightgrey;
+}
+
+a.gohome:hover{
+	color: green;
+	background-color: white;
 }
