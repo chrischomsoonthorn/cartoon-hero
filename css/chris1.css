@@ -125,6 +125,7 @@ input{
 	background-color: lightgrey;
 	border: solid 2px;
 	padding: 20px;
+	overflow: auto;
 }
 
 a.gohome{
@@ -134,4 +135,18 @@ a.gohome{
 a.gohome:hover{
 	color: green;
 	background-color: white;
+}
+
+.image1{
+	width: 20%;
+	float: right;
+	clear: right;
+	margin: 0 20px;
+}
+
+.image2{
+	width: 20%;
+	float: left;
+	clear: left;
+	margin: 0 20px;
 }
