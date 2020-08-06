@@ -23,7 +23,7 @@ header{
 /*this looks at specifically header and h1 - so setting the colour of the text to white*/
 header h1{
 	color: white;
-	font-size: 58px;
+	font-size: 100px;
 	line-height: 70px;
 }
 
@@ -59,6 +59,11 @@ footer{
 	margin: 0 auto;
 	line-height: 25px;
 	max-width: 800px;
+}
+
+.experimentlearningpage{
+	text-align: center;
+	font-size: 25px;
 }
 
 ul{
@@ -167,4 +172,26 @@ a.gohome:hover{
 
 .image5{
 	width: 100px;
+}
+
+.row{
+	background-color: #011A27;
+}
+
+/*Because the divs contained in this row div are floating, there needs to be a clear fix applied to this*/
+.row:after{
+	clear:both;
+	display: table;
+	content: "";
+}
+
+.col{
+	color: white;
+	margin: 10px;
+	float: left;
+	padding:10px;
+	background-color: #F0810F;
+	border: dotted black 5px;
+	box-sizing: border-box;
+
 }
