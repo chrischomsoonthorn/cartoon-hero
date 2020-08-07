@@ -15,8 +15,8 @@
 <!-- Main area for testing and development -->
 	<main>
 		<!-- Example 1 - showing difference between multiple classes and how it can be customised through css -->
-		
-		<h2 class="exampletitle"> Example 1 - Using Classes</h2> 
+		<div class="pagetop">Hope you enjoy reading!</div>
+		<h2 class="exampletitle">Learning 1 - Using Classes</h2> 
 		<h2 class="exampledesc">String text delivered through 'span' element with adjusted formatting from class labelling.</h2>
 		<div class="examplebox">
 			<span class="test1">This is an example of test text with class name 'test1' under the <u>Span</u> element. as you can see, as soon as I</span> 
@@ -26,7 +26,7 @@
 		<!-- Example 2 - Using Float to control images and text -->
 		
 
-		<h2 class="exampletitle"> Example 2 - Using Float in CSS</h2> 
+		<h2 class="exampletitle">Learning 2 - Using Float in CSS</h2> 
 		<h2 class="exampledesc">Using 'float' in CSS can make objects such as text wrap around images.</h2>
 		<div class="examplebox">
 			<div>
@@ -40,7 +40,7 @@
 			</div>
 		</div>
 
-		<h2 class="exampletitle"> Example 3 - (Advanced) Using Float in CSS</h2> 
+		<h2 class="exampletitle">Learning 3 - (Advanced) Using Float in CSS</h2> 
 		<h2 class="exampledesc">Using 'float' and 'clear' in CSS can give you a list of images on a side with margined text alongside it.</h2>
 		<div class="examplebox">
 			<div>
@@ -64,7 +64,7 @@
 			</div>
 		</div>
 
-		<h2 class="exampletitle"> Example 4 - Using a clear fix to create a set of div boxes to contain any content</h2> 
+		<h2 class="exampletitle">Learning 4 - Using a clear fix to create a set of div boxes to contain any content</h2> 
 		<h2 class="exampledesc">Using a clear fix, i.e. setting a class with a pseudoclass of 'after', followed by entering no content and displaying it as a table followed by 'clear: both;' allows for content to be shown in similarly shaped blocks which can serve as menu items or tabs. </h2>
 		<div class="examplebox">
 			<div class="row">
@@ -76,6 +76,49 @@
 			</div>
 		</div>
 
+		<h2 class="exampletitle">Learning 5 - Using the 'transform' attribute</h2> 
+		<h2 class="exampledesc">Transform X & Y is a little different from the other attributes because it follows a different syntax: transform: translateX(50px). There are 2 elements to the syntax which need to be written. So with the example below, I will transform column 2 and column 3 by X and Y values respectively. </h2>
+		<div class="examplebox">
+			<div class="row">
+				<div class="col">This is column 1</div>
+				<div class="col2">This is column 2 transformed in the X axis by 50px</div>
+				<div class="col3">This is column 3 transformed in the Y axis by 50px</div>
+			</div>
+		</div>
+
+		<h2 class="exampletitle">Learning 6 - Static, Relative and Absolute Positioning</h2> 
+		<h2 class="exampledesc">This is probably going to be a big post... Positioning in CSS and HTML was a little bit tricky to get my head around. The attribute of positioning i.e. positioning: relative; for instance differs a lot depending on which one you select. </h2>
+		<!-- Static Positioning -->
+		<h2 class="exampledesc"> Below is an example of STATIC positioning: </h2>
+		<div class="examplebox">
+			<div class="static1"> This is the parent relative box
+				<div class="static2">This is static child 1</div>
+				<div class="static2">This is static child 2</div>
+				<div class="static2">This is static child 3</div>
+			</div>
+		<h2 class="examplecaption"> Above we can see that, along with the necessary margining and padding added to the elements, all of the static elements take up 100% of the width of the object and resize themselves appropriately to fit the screen size which is shown, which is pretty awesome as we don't need to go and manually adjust the height and width and so on. It is 'always positioned with normal accordance to the page.' </h2>
+		</div>
+		<!-- Relative positioning -->
+		<h2 class="exampledesc">Below is an example of RELATIVE positioning: </h2>
+		<div class="examplebox">
+			<div class="static1"> This is the parent relative box
+				<div class="relative1">This is relative child 1 - moved from the left by 10px</div>
+				<div class="relative2">This is relative child 2 - moved from the left by 20px - you can see how using relative positioning allows us to change left/right/top/bottom values</div>
+				<div class="relative3">This is relative child 3 - it's left value exceeds that of the boundaries of the parent static box</div>
+			</div>
+			<h2 class="examplecaption"> Relative positioning allows the user to adjust the element's top/bottom/right/left values. Importantly this does not affect how other elements 'perceive' the relative element to move. This is why it goes out of the parent box. The parent box still 'thinks' the element is in it's normal place. </h2>
+		</div>
+			<!-- Absolute positioning -->
+		<h2 class="exampledesc"> Below is an example of ABSOLUTE positioning: </h2>
+		<div class="examplebox">
+			<div class="static1"> This is the parent relative box
+				<div class="absolute1">This is absolute child 1</div>
+				<div class="absolute2">This is absolute child 2</div>
+				<div class="absolute3">This is absolute child 3</div>
+				<div class="absolute4">This is absolute child 4</div>
+			</div>
+			<h2 class="examplecaption"> Similar to floating an element, absolute positioning allows the user to specifically customise exactly where an element will go. The box that the absolute element is also sized appropriately to the content inside. Absolute elements will 'cling' to the nearest relative element for reference. In this case it clings to the parent relative box. If we wanted to remove the relative attribute from the parent box we would end up with the child absolute boxes at the top and bottom of the page respectively. An example of this is in the bottom right at the top of the page where it says 'Hope you enjoy reading!' </h2>
+		</div>
 	</main>
 </body>
 </html>

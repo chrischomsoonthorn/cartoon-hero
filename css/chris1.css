@@ -27,6 +27,11 @@ header h1{
 	line-height: 70px;
 }
 
+.pagetop{
+	position: absolute;
+	right:0px;
+	bottom:0px;
+}
 
 header h2{
 	color: white;
@@ -45,7 +50,6 @@ h2{
 	font-size: 25px;
 	margin: 40px 0 10px;
 }
-
 
 main{
 	margin: 0px auto;
@@ -96,13 +100,25 @@ input{
 	text-align: center;
 	line-height: 35px;
 	color: black;
-	margin: 20px 0 10px;
+	margin: 100px 0 10px;
+}
+
+.exampletitle:first-child{
+		margin: 20px 0 10px;
 }
 
 .exampledesc{
 	text-align: center;
-	line-height: 35px;
-	font-size: 20px;
+	line-height: 25px;
+	font-size: 17px;
+	color: black;
+	margin: 20px 0 10px;
+}
+
+.examplecaption{
+	text-align: center;
+	line-height: 18px;
+	font-size: 15px;
 	color: black;
 	margin: 20px 0 10px;
 }
@@ -194,4 +210,106 @@ a.gohome:hover{
 	border: dotted black 5px;
 	box-sizing: border-box;
 
+}
+
+.col2{
+	color: white;
+	margin: 10px;
+	float: left;
+	padding:10px;
+	background-color: green;
+	border: dotted black 5px;
+	box-sizing: border-box;
+	transform: translateX(50px)
+
+}
+
+.col3{
+	color: white;
+	margin: 10px;
+	float: left;
+	padding:10px;
+	background-color: blue;
+	border: dotted black 5px;
+	box-sizing: border-box;
+	transform: translateY(50px)
+
+}
+
+.static1{
+	color: #0C0A3E;
+	font-size: 25px;
+	background-color: white;
+	padding:20px;
+	position: relative;
+}
+
+.static2{
+	color: #7B1E7A;
+	font-size: 20px;
+	background-color: #F3C677;
+	margin: 20px;
+}
+
+.relative1{
+	color: #7B1E7A;
+	font-size: 20px;
+	background-color: #F3C677;
+	margin: 20px;
+	position: relative;
+	left: 10px;
+}
+
+.relative2{
+	color: #7B1E7A;
+	font-size: 20px;
+	background-color: #F3C677;
+	margin: 20px;
+	position: relative;
+	left: 20px;
+}
+
+.relative3{
+	color: #7B1E7A;
+	font-size: 20px;
+	background-color: #F3C677;
+	margin: 20px;
+	position: relative;
+	left: 200px;
+}
+
+.absolute1{
+	color: #7B1E7A;
+	font-size: 20px;
+	background-color: #F3C677;
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+
+.absolute2{
+	color: #7B1E7A;
+	font-size: 20px;
+	background-color: #F3C677;
+	position: absolute;
+	top:0px;
+	right:0px;
+}
+
+.absolute3{
+	color: #7B1E7A;
+	font-size: 20px;
+	background-color: #F3C677;
+	position: absolute;
+	bottom:0px;
+	left:0px;
+}
+
+.absolute4{
+	color: #7B1E7A;
+	font-size: 20px;
+	background-color: #F3C677;
+	position: absolute;
+	bottom:0px;
+	right:0px;
 }
