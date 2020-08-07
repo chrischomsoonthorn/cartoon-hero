@@ -220,7 +220,7 @@ a.gohome:hover{
 	background-color: green;
 	border: dotted black 5px;
 	box-sizing: border-box;
-	transform: translateX(50px)
+	transform: translateX(50px);
 
 }
 
@@ -232,7 +232,7 @@ a.gohome:hover{
 	background-color: blue;
 	border: dotted black 5px;
 	box-sizing: border-box;
-	transform: translateY(50px)
+	transform: translateY(50px);
 
 }
 
