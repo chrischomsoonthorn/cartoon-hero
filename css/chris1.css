@@ -95,17 +95,48 @@ input{
 	width: 100%;
 }
 
+.standardimage{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: black 5px;
+	padding: 10px;
+}
+
+/*Borders for the all of the examples - there is a simple border at the bottom of the each div*/
+
+
+/*borderbox0 is the first box that means that the margin from the top is a little less than the others so that the page looks good. Aside from that all the border boxes are identical. Positioning is relative so that the borderbox:after attribute can be absolute*/
+.borderbox0{
+	margin: 20px 0 0 0;
+	position: relative;
+}
+
+.borderbox1{
+	margin: 100px 0 0 0;
+	position: relative;
+}
+
+/*content is blank because it is simply a workaround to get a border - currently 60px below the bottom of the main border box, with a height of 3px and background colour of black to give the impression of a border just on one end*/
+.borderbox1:after, .borderbox0:after{
+	content:"";
+	position: absolute;
+	background-color: black;
+	margin: 30px 0 0 0 ;
+	left:0;
+	right:0;
+	bottom: -60px;
+	height: 3px
+}
+
+
 
 .exampletitle{
 	text-align: center;
 	line-height: 35px;
 	color: black;
-	margin: 100px 0 10px;
 }
 
-.exampletitle:first-child{
-		margin: 20px 0 10px;
-}
 
 .exampledesc{
 	text-align: center;
@@ -236,6 +267,9 @@ a.gohome:hover{
 
 }
 
+
+/*Learning 6*/
+/*To be honest... this shouldn't be called static1 - it is a misnamed class because I changed it's position to relative. However let's just keep it that way for my own learning!*/
 .static1{
 	color: #0C0A3E;
 	font-size: 25px;
@@ -312,4 +346,104 @@ a.gohome:hover{
 	position: absolute;
 	bottom:0px;
 	right:0px;
+}
+
+
+/*Learning 7*/
+
+.absolute5, .absolute6, .absolute7, .absolute8{
+	color: black;
+	font-size: 20px;
+	position: absolute;
+}
+
+.absolute5{
+	top: 60px;
+	background-color: #FF3E41;
+}
+
+.absolute6{
+	top: 90px;
+	background-color: #883955;
+	color: white;
+}
+
+.absolute7{
+	top: 120px;
+	background-color: #4C3549;
+	color: white;	
+}
+
+.absolute8{
+	top: 150px;
+	background-color: #FF4D80;	
+}
+
+.relative4{
+	color: #0C0A3E;
+	font-size: 25px;
+	background-color: white;
+	padding:20px;
+	position: relative;
+	height: 170px;
+}
+
+.absolute9, .absolute10, .absolute11, .absolute12{
+	color: black;
+	font-size: 20px;
+	position: absolute;
+}
+
+.absolute9{
+	top: 100px;
+	background-color: #FF3E41;
+}
+
+.absolute10{
+	top: 103px;
+	background-color: #883955;
+	color: white;
+}
+
+.absolute11{
+	top: 106px;
+	background-color: #4C3549;
+	color: white;	
+}
+
+.absolute12{
+	top: 109px;
+	background-color: #FF4D80;	
+}
+
+.absolute13, .absolute14, .absolute15, .absolute16{
+	color: black;
+	font-size: 20px;
+	position: absolute;
+}
+
+.absolute13{
+	top: 100px;
+	background-color: #FF3E41;#
+	z-index: 1;
+}
+
+.absolute14{
+	top: 103px;
+	background-color: #883955;
+	color: white;
+	z-index: 4;
+}
+
+.absolute15{
+	top: 106px;
+	background-color: #4C3549;
+	color: white;
+	z-index: 3;	
+}
+
+.absolute16{
+	top: 109px;
+	background-color: #FF4D80;
+	z-index: 2;	
 }
