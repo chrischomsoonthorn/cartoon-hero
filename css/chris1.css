@@ -267,6 +267,18 @@ a.gohome:hover{
 
 }
 
+.col4{
+	color: white;
+	margin: 10px;
+	float: left;
+	padding:10px;
+	background-color: blue;
+	border: dotted black 5px;
+	box-sizing: border-box;
+	transform: translateY(1000px);
+
+}
+
 
 /*Learning 6*/
 /*To be honest... this shouldn't be called static1 - it is a misnamed class because I changed it's position to relative. However let's just keep it that way for my own learning!*/
@@ -446,4 +458,24 @@ a.gohome:hover{
 	top: 109px;
 	background-color: #FF4D80;
 	z-index: 2;	
+}
+
+.sticky1{
+	position: sticky;
+	top:0;
+	right:0;
+	background-color: red;
+}
+
+.sticky2{
+	position: sticky;
+	top:0;
+	right:0;
+	background-color: green;
+}
+
+.fixed1{
+	position: fixed;
+	top:50px;
+	right: 50px;
 }
