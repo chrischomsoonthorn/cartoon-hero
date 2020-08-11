@@ -1,0 +1,37 @@
+/*Colour scheme:
+	Black: #0C120C;
+	Red: #C20114;
+	Grey: #6D7275;
+	Bluegrey: #C7D6D5;
+	Magnolia (grey): #ECEBF3;
+*/
+
+header{
+	background-color: #C7D6D5;
+	text-align: center;
+	padding: 50px 50px 50px;
+	position: relative;
+}
+
+/*This creates a border type effect at the bottom of the header*/
+header:after{
+	content:"";
+	position: absolute;
+	background-color: #C20114; 
+	left: 0;
+	right: 0;
+	bottom: 0px;
+	height: 20px;
+}
+
+h1{
+	color: #0C120C;
+	font-size: 70px;
+	font-family: 'Roboto Slab', serif;
+}
+
+h2{
+	color: #0C120C;
+	font-size: 35px;
+	font-family: 'Roboto Slab', serif;
+}
