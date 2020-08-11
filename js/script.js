@@ -62,6 +62,8 @@ var countdownNumber = 10;
 var changeState = function(state) {
 	document.body.className = "bodystate" + state;
 	clearInterval(timer);
+	countdownNumber = 10;
+	document.getElementById("countdown1").innerHTML = countdownNumber;
 
 	if(state == 2) {
 		timer = setInterval(function(){
@@ -70,7 +72,7 @@ var changeState = function(state) {
 			if (countdownNumber <= 0) {
 				changeState(3);
 			}
-		}, 1000);
+		}, 300);
 	} else if (state == 3) {
 		var success = setTimeout(function(){
 			var randomNumber = Math.round(Math.random()*10);

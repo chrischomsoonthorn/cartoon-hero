@@ -129,7 +129,11 @@ h2{
 	transition: bottom 10000ms;
 }
 
-body.bodystate3 .rocket1{
+body.bodystate1 .rocket1{
+	transition: none;
+}
+
+body.bodystate3 .rocket1, body.bodystate4 .rocket1{
 	bottom: 2000px;
 }
 
