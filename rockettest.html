@@ -26,7 +26,7 @@
 	<!-- Below is our Google font -->
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="bodystate1">
 
 	<!-- This is the header to the website -->
 	<header>
@@ -36,10 +36,56 @@
 	<!-- This begins the main section of the website -->
 	<main>
 		<h2>This is the testing area below</h2>
-		<a href="#" onclick="doCoolStuff();">CLICK ME</a>
+		<a href="#!" onclick="doCoolStuff();">CLICK ME</a>
 
 		<div>
 			<p class="cool" id="para1">Hello! Click the button above to see what happens!</p>
+		</div>
+
+		<div>
+			<a href="#!" onclick="changeFontSize1();">CLICK ME</a>
+			<p class="font1" id="sizechange1">Watch what happens to the size of this font</p>
+		</div>
+
+		<!-- All content on the left of the screen for rocket launch sequence -->
+		<div class="left1">
+			<!-- State 1 is before launching the rocket. -->
+			<div class="state1">
+				<h2>JS Rocket Launch!</h2>
+				<a href="#!" class="launch1" onclick="changeState(2);">Launch!</a>
+			</div>
+
+			<!-- State 2 is after pressing launch but before the rocket lifts off. -->
+			<div class="state2">
+				<h2 id="countdown1">10</h2>
+				<a href="#!" class="launch1" onclick="changeState(1);">Abort!</a>
+			</div>
+
+			<!-- State 3 is during lift off -->
+			<div class="state3">
+				<h2>Lift Off!!!</h2>
+			</div>
+
+			<!-- State 4 is after successful take off -->
+			<div class="state4">
+				<h2>Well Done!</h2>
+				<a href="#!" class="launch1" onclick="changeState(1);">Do it Again!</a>
+			</div>
+
+			<!-- State 5 is if there is an error -->
+			<div class="state5">
+				<h2>Oh No!!!</h2>
+				<a href="#!" class="launch1" onclick="changeState(1);">Try Again!</a>
+			</div>
+
+
+
+		</div>
+
+		<!-- All content on the right of the screen for rocket launch sequence -->
+		<div class="right1">
+			<div class="ground1"></div>
+			<div class="rocket1"></div>
 		</div>
 	</main>
 		
