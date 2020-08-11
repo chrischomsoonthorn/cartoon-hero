@@ -43,3 +43,35 @@ h2{
 	font-size: 35px;
 	font-family: 'Roboto Slab', serif;
 }
+
+.cool{
+	
+	/*By default By default p tags are block elements, which means they take 100% of the parent width.
+
+	You can change their display property with:
+
+	#container p {
+	   display:inline-block;
+	}
+	But it puts the elements side by side.
+
+	To keep each element on its own line you can use:
+
+	#container p {
+	   clear:both;
+	   float:left;
+	}*/
+	
+
+	display: inline-block;
+	box-sizing: border-box;
+	background-color: green;
+	color: white;
+	transition: background-color 1s;
+}
+
+/*I was a little confused by this at first but cool.red gives me the ability to keep the attributes of 'cool' whilst also applying a new attribute which is 'red'. When referencing cool.red I should just not put the full stop.*/
+
+.cool.red{
+	background-color: red;
+}
