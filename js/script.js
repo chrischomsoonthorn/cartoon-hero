@@ -58,6 +58,7 @@ console.log('hello there friends');
 
 var timer = null;
 var countdownNumber = 10;
+var successfulLaunches = 0;
 
 var changeState = function(state) {
 	document.body.className = "bodystate" + state;
@@ -77,8 +78,10 @@ var changeState = function(state) {
 		var success = setTimeout(function(){
 			var randomNumber = Math.round(Math.random()*10);
 
-			if(randomNumber > 5){
+			if(randomNumber > 2){
 				changeState(4);
+				successfulLaunches += 1;
+				document.getElementById("slc2").innerHTML = successfulLaunches;
 			} else {
 				changeState(5);
 			}

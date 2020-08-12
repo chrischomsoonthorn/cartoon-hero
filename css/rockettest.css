@@ -8,6 +8,8 @@
 
 body{
 	margin: 0;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
 }
 
 header{
@@ -42,6 +44,10 @@ h2{
 	color: #0C120C;
 	font-size: 35px;
 	font-family: 'Roboto Slab', serif;
+}
+
+.left1 h2{
+	font-size: 75px;
 }
 
 .cool{
@@ -100,7 +106,7 @@ h2{
 
 .right1{
 	position: relative;
-	background-color: #C7D6D5;
+	background-image: url("https://img1.goodfon.com/wallpaper/nbig/a/78/field-field-of-gold-tree.jpg");
 	width: 49.9%;
 	height: 700px;
 	right: 0;
@@ -108,6 +114,15 @@ h2{
 	float: right;
 	margin:0;
 	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.launch1{
+	font-size: 35px;
+	color: white;
+	background-color: #C20114;
+	border: dotted black 3px;
+	padding: 10px;
 }
 
 .ground1{
@@ -122,10 +137,12 @@ h2{
 .rocket1{
 	position: absolute;
 	left: 50%;
-	bottom: 10px;
-	width: 20px;
-	height: 200px;
-	background-color: blue;
+	bottom: -160px;
+	width: 378px;
+	height: 400px;
+	margin-left: -189px;
+	background-color: transparent;
+	background: url('../img/state1.png') no-repeat;
 	transition: bottom 10000ms;
 }
 
@@ -135,6 +152,18 @@ body.bodystate1 .rocket1{
 
 body.bodystate3 .rocket1, body.bodystate4 .rocket1{
 	bottom: 2000px;
+}
+
+body.bodystate5 .left1 h2{
+	font-size: 30px;
+}
+
+body.bodystate5 .rocket1{
+	background-image: url('../img/explosion.gif');
+	width: 400px;
+	height: 400px;
+	background-size: 400px;
+    bottom: -1000px;
 }
 
 .state1, .state2, .state3, .state4, .state5{
@@ -155,4 +184,20 @@ body.bodystate5 .state5{display: block;}
 
 a.launch1{
 
+}
+
+.successfullaunches{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	background-color: white;
+	width: max-content;
+}
+
+.successfullaunchcount1, .successfullaunchcount2{
+	display: inline-block;
+	margin: 0px;
+	padding: 0;
+	font-size: 30px;
 }
