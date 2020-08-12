@@ -78,7 +78,7 @@ var changeState = function(state) {
 		var success = setTimeout(function(){
 			var randomNumber = Math.round(Math.random()*10);
 
-			if(randomNumber > 2){
+			if(randomNumber > 3){
 				changeState(4);
 				successfulLaunches += 1;
 				document.getElementById("slc2").innerHTML = successfulLaunches;
