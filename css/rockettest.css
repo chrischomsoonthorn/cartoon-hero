@@ -190,9 +190,9 @@ a.launch1{
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	text-align: right;
+	text-align: center;
 	background-color: white;
-	width: max-content;
+	width: fit-content;
 }
 
 .successfullaunchcount1, .successfullaunchcount2{
